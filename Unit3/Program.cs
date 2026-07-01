@@ -1,9 +1,8 @@
 ﻿//*********************************************************
-//**** Assignment 3 Section 1
+//**** Assignment 3 — Arrays Only Version
 //*********************************************************
 
 using System;
-using System.Collections.Generic;
 
 namespace IT232_Unit_3_Assignment
 {
@@ -11,22 +10,23 @@ namespace IT232_Unit_3_Assignment
     {
         static void Main(string[] args)
         {
-            // Constants for array dimensions; it seem a little sloppy to keep repeating the same constants, but I will keep them for clarity in each section
+            //adding constants here for the array dimensions as it seemed wasteful to keep repeating the same numbers in multiple places
             const int ROWS = 4;
             const int COLS = 4;
 
-            // **** Assignment 3 Section 1
+            //*********************************************************
+            //**** Section 1: Two-dimensional Array
+            //*********************************************************
 
-            // Create a two-dimensional string array of 4x4 elements named salesRegions
             string[,] salesRegions = new string[ROWS, COLS];
 
-            // Populate the array with names of sales regions (column 0)
+            // Populate regions
             salesRegions[0, 0] = "North";
             salesRegions[1, 0] = "South";
             salesRegions[2, 0] = "East";
             salesRegions[3, 0] = "West";
 
-            // Populate personnel names
+            // Populate personnel
             salesRegions[0, 1] = "Bob";
             salesRegions[0, 2] = "Stef";
             salesRegions[0, 3] = "Ron";
@@ -45,69 +45,107 @@ namespace IT232_Unit_3_Assignment
 
             Console.WriteLine("Section 1: Two-dimensional Array.\n");
 
-            // Display the contents of the array by sales region
             for (int row = 0; row < ROWS; row++)
             {
                 for (int col = 0; col < COLS; col++)
                 {
                     Console.WriteLine(salesRegions[row, col]);
                 }
-
                 Console.WriteLine();
             }
 
             //*********************************************************
-            //**** Assignment 3 Section 2
+            //**** Section 2: Arrays Instead of Lists
             //*********************************************************
 
-            // Create a List<string> called salesTeam; Lists are a little more flexible than arrays for the output of text, where I can pass in array arguments and then remove them later if needed.  I will use the List<string> to store the names of the sales team members from the salesRegions array.
-    
-            List<string> salesTeam = new List<string>();
+            Console.WriteLine("Section 2: Arrays.\n");
 
-            // Add names from the North region (row 0, columns 1–3)
+            // Start with an empty array
+            string[] salesTeam = new string[0];
+
+            // Add names from North region (row 0, columns 1–3)
             for (int col = 1; col < COLS; col++)
             {
-                salesTeam.Add(salesRegions[0, col]);
+                salesTeam = AddToArray(salesTeam, salesRegions[0, col]);
             }
 
-            Console.WriteLine("Section 2: ArrayList.\n");
+            Console.WriteLine($"There are {salesTeam.Length} names in the salesTeam array.\n");
 
-            // Display current number of elements
-            Console.WriteLine($"There are {salesTeam.Count} names in the salesTeam list.\n");
-
-            // Add names from the South region (row 1)
+            // Add names from South region (row 1)
             for (int col = 1; col < COLS; col++)
             {
-                salesTeam.Add(salesRegions[1, col]);
+                salesTeam = AddToArray(salesTeam, salesRegions[1, col]);
             }
 
-            // Check if "Stef" is in the list
-            if (salesTeam.Contains("Stef"))
+            // Check if "Stef" is in the array
+            if (Array.Exists(salesTeam, name => name == "Stef"))
             {
-                Console.WriteLine("Stef is in the salesTeam list.");
+                Console.WriteLine("Stef is in the salesTeam array.");
             }
             else
             {
-                Console.WriteLine("Stef is not in the salesTeam list.");
+                Console.WriteLine("Stef is not in the salesTeam array.");
             }
 
-            Console.WriteLine($"\nThere are {salesTeam.Count} names in the salesTeam list.\n");
+            Console.WriteLine($"\nThere are {salesTeam.Length} names in the salesTeam array.\n");
 
             // Remove Janice and Ron
-            salesTeam.Remove("Janice");
-            salesTeam.Remove("Ron");
+            salesTeam = RemoveFromArray(salesTeam, "Janice");
+            salesTeam = RemoveFromArray(salesTeam, "Ron");
 
-            Console.WriteLine($"There are {salesTeam.Count} names in the salesTeam list.\n");
+            Console.WriteLine($"There are {salesTeam.Length} names in the salesTeam array.\n");
 
-            // Display remaining names
-            Console.WriteLine("Names currently in the salesTeam list:");
-
+            Console.WriteLine("Names currently in the salesTeam array:");
             foreach (string name in salesTeam)
             {
                 Console.WriteLine(name);
             }
 
             Console.Read();
+        }
+
+        //*********************************************************
+        //**** Helper Methods for Array Manipulation
+        //*********************************************************
+
+        // Adds an item to an array by creating a new resized array
+        static string[] AddToArray(string[] array, string item)
+        {
+            string[] newArray = new string[array.Length + 1];
+            for (int i = 0; i < array.Length; i++)
+            {
+                newArray[i] = array[i];
+            }
+            newArray[newArray.Length - 1] = item;
+            return newArray;
+        }
+
+        // Removes an item from an array by creating a new array without that item
+        static string[] RemoveFromArray(string[] array, string item)
+        {
+            int count = 0;
+
+            // Count how many items will remain
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] != item)
+                {
+                    count++;
+                }
+            }
+
+            string[] newArray = new string[count];
+            int index = 0;
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] != item)
+                {
+                    newArray[index++] = array[i];
+                }
+            }
+
+            return newArray;
         }
     }
 }
