@@ -26,3 +26,4 @@ C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\obj\Debug\net8.0-w
 C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.pdb
 C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.genruntimeconfig.cache
 C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\obj\Debug\net8.0-windows\ref\CalculatorApp.dll
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\obj\Debug\net8.0-windows\CalculatorApp.sourcelink.json
