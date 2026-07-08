@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit2\\CalculatorApp.csproj": {}
+    "C:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit2\\CalculatorApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit2\\CalculatorApp.csproj": {
+    "C:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit2\\CalculatorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit2\\CalculatorApp.csproj",
+        "projectUniqueName": "C:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit2\\CalculatorApp.csproj",
         "projectName": "CalculatorApp",
-        "projectPath": "c:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit2\\CalculatorApp.csproj",
+        "projectPath": "C:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit2\\CalculatorApp.csproj",
         "packagesPath": "C:\\Users\\nospa\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit2\\obj\\",
+        "outputPath": "C:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nospa\\AppData\\Roaming\\NuGet\\NuGet.Config"
