@@ -4,7 +4,11 @@ using System.IO;
 using System.Linq;
 
 namespace IT232_Unit_5_Assignment
-{
+{//*********************************************************
+
+//****Assignment 5 Section 1
+
+//*********************************************************
     class Program
     {
         static void Main(string[] args)
@@ -27,7 +31,11 @@ namespace IT232_Unit_5_Assignment
 
             Console.WriteLine($"There are {FileLineCount("ProducePrice.txt")} products in the file.");
 
-            // Section 2: Append more items
+//*********************************************************
+
+//****Assignment 5 Section 2
+
+//*********************************************************
             var additionalItems = new[]
             {
                 "peppers 0.99",
@@ -41,7 +49,11 @@ namespace IT232_Unit_5_Assignment
             Console.WriteLine($"There are {FileLineCount("ProducePrice.txt")} products in the file.");
             Console.WriteLine();
 
-            // Section 3: Read file into a list and display
+//*********************************************************
+
+//****Assignment 5 Section 3
+
+//*********************************************************
             var producePrices = File.ReadLines("ProducePrice.txt").ToList();
 
             for (int i = 0; i < producePrices.Count; i++)
