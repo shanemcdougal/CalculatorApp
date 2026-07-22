@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit6\\unit6.csproj": {}
+    "C:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit6\\unit6.csproj": {}
   },
   "projects": {
-    "c:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit6\\unit6.csproj": {
+    "C:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit6\\unit6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit6\\unit6.csproj",
+        "projectUniqueName": "C:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit6\\unit6.csproj",
         "projectName": "unit6",
-        "projectPath": "c:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit6\\unit6.csproj",
+        "projectPath": "C:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit6\\unit6.csproj",
         "packagesPath": "C:\\Users\\nospa\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit6\\obj\\",
+        "outputPath": "C:\\Users\\nospa\\OneDrive\\Documents\\Projects-Code\\CalculatorApp\\Unit6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nospa\\AppData\\Roaming\\NuGet\\NuGet.Config"
