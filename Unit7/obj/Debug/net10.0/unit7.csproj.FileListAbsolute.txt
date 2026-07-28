@@ -1,0 +1,15 @@
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\bin\Debug\net10.0\unit7.exe
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\bin\Debug\net10.0\unit7.deps.json
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\bin\Debug\net10.0\unit7.runtimeconfig.json
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\bin\Debug\net10.0\unit7.dll
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\bin\Debug\net10.0\unit7.pdb
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\obj\Debug\net10.0\unit7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\obj\Debug\net10.0\unit7.AssemblyInfoInputs.cache
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\obj\Debug\net10.0\unit7.AssemblyInfo.cs
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\obj\Debug\net10.0\unit7.csproj.CoreCompileInputs.cache
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\obj\Debug\net10.0\unit7.sourcelink.json
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\obj\Debug\net10.0\unit7.dll
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\obj\Debug\net10.0\refint\unit7.dll
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\obj\Debug\net10.0\unit7.pdb
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\obj\Debug\net10.0\unit7.genruntimeconfig.cache
+C:\Users\nospa\OneDrive\Documents\Projects-Code\CalculatorApp\unit7\obj\Debug\net10.0\ref\unit7.dll
